@@ -25,7 +25,7 @@ fs.readFile('day02a.txt', 'utf-8', (err, data) => {
 fs.readFile('day02a.txt', 'utf-8', (err, data) => {
     if (err) throw err;
     else {
-        console.log('Day02: Problem 1')
+        console.log('Day02: Problem 2')
         let lines = data.split('\n');
         let horizontal = 0;
         let vertical = 0;
